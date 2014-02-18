@@ -1,10 +1,24 @@
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif|Montserrat|Ruda|Capriola);
+
 $body-bg: #3498db;
-$navbar-default-bg: #3498db;
+$font-family-sans-serif: 'Capriola', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-height: 45px;
+$navbar-collapse-bg: #c0392b;
+$navbar-default-bg: #c0392b;
 $navbar-default-link-color: white;
-$navbar-inverse-bg: #2c3e50;
+$navbar-default-brand-color: white;
+$brand-primary: #c0392b;
+$jumbotron-bg: white;
+
+@import 'bootstrap';
+
+.center {
+     text-align: center;
+}
+
+.navbar-brand {
+     font-weight: bold;
+}
+
 $border-radius-base: 0px;
-$navbar-inverse-link-color: white;
-$brand-primary: #1abc9c;
-$jumbotron-bg: #1abc9c;
-$jumbotron-padding: 30px;
 @import 'bootstrap';
